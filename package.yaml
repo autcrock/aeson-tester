@@ -20,13 +20,14 @@ extra-source-files:
 description:         Please see the README on GitHub at <https://github.com/autcrock/AesonTests#readme>
 
 dependencies:
-- base >= 4.7 && < 5
+- base
 - aeson
 - bytestring
 - directory
 - either-unwrap
 - text
 - unique
+- unordered-containers
 
 library:
   source-dirs: src
